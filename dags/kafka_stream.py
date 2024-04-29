@@ -12,7 +12,7 @@ default_args = {
     'retries': 1,
 }
 
-with DAG('user-automation',
+with DAG('fligths-comsumtion',
          default_args=default_args,
          schedule_interval='@daily',
          catchup=False) as dag:
